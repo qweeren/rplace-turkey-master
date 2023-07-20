@@ -79,6 +79,6 @@ def generate_static_webpage(image_path: str, output_filename:str, top_left:tuple
 
 
 if __name__ == '__main__':
-    generate_static_webpage(image_path="C:/Users/ereny/Desktop/Code/rplace-turkey-master/img/turkish_flag.png",
+    generate_static_webpage(image_path="C:/Users/ereny/Desktop/Code/rplace-turkey-master/img/bayrak.png",
     output_filename="bayrak.html",
-    top_left=(1000, 0))
+    top_left=(-368, 293))

@@ -2,6 +2,7 @@
 # humanova 2022
 
 import matplotlib.pyplot as plt
+import os
 
 ui_scale = 8
 
@@ -73,60 +74,11 @@ def generate_static_webpage(image_path: str, output_filename:str, top_left:tuple
     </html>
     """
     
-    with open(f"../{output_filename}", "w") as file:
+    with open(f"C:/Users/ereny/Desktop/Code/rplace-turkey-master/{output_filename}", "w") as file:
         file.write(website_template)
 
 
 if __name__ == '__main__':
-    generate_static_webpage(image_path="../img/topright_ataturk2.png",
-                            output_filename="ataturk.html",
-                            top_left=(1000, 0))
-
-    generate_static_webpage(image_path="../img/turkishcat.png",
-            output_filename="turkishcat.html",
-            top_left=(1545,1419))
-
-    #generate_static_webpage(image_path="../img/elraenn_bayrak.png",
-    #           output_filename="elraenn_bayrak.html",
-    #            top_left=(299,343))
-
-    #generate_static_webpage(image_path="../img/shovel.png",
-    #            output_filename="shovel.html",
-    #            top_left=(317,1902))
-
-
-    #generate_static_webpage(image_path="../img/ramizdayi.png",
-    #    output_filename="ramizdayi.html",
-    #    top_left=(881, 1745))
-
-    #generate_static_webpage(image_path="../img/turkish_flag3_with_text.png",
-    #                        output_filename="index.html",
-    #                        top_left=(299,343))
-
-    #generate_static_webpage(image_path="../img/turkish_flag3_with_text.png",
-    #                    output_filename="bayrak2.html",
-    #                    top_left=(299,343))
-
-    #generate_static_webpage(image_path="../img/chad.png",
-    #                    output_filename="zade.html",
-    #                    top_left=(480,414))
-
-    #generate_static_webpage(image_path="../img/2balkan4u.png",
-    #        output_filename="2b4u.html",
-    #        top_left=(1900,1583))
-
-    #generate_static_webpage(image_path="../img/kgbtr.png",
-    #                output_filename="kgbtr.html",
-    #                top_left=(736,1440))
-    
-    #generate_static_webpage(image_path="../img/kgbtr2.png",
-    #            output_filename="kgbtr2.html",
-    #            top_left=(1072, 120))
-
-    #generate_static_webpage(image_path="../img/maoy.png",
-    #        output_filename="maoy.html",
-    #        top_left=(1219,60))
-
-    #generate_static_webpage(image_path="../img/turkey-and-ataturk.png",
-    #                        output_filename="index.html",
-    #                        top_left=(299,318))
+    generate_static_webpage(image_path="C:/Users/ereny/Desktop/Code/rplace-turkey-master/img/turkish_flag.png",
+    output_filename="bayrak.html",
+    top_left=(1000, 0))

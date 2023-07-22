@@ -22,8 +22,8 @@ def generate_static_webpage(image_path: str, output_filename:str, top_left:tuple
     <html lang="en">
     <style>
     * {{
-        top: 100px;
-        left: 100px;
+        top: 0;
+        left: 0;
         padding: 0;
         margin: 0;
         width: {ui_scale}px;

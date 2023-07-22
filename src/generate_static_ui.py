@@ -22,8 +22,8 @@ def generate_static_webpage(image_path: str, output_filename:str, top_left:tuple
     <html lang="en">
     <style>
     * {{
-        top: 100;
-        left: 100;
+        top: 100px;
+        left: 100px;
         padding: 0;
         margin: 0;
         width: {ui_scale}px;
@@ -79,6 +79,6 @@ def generate_static_webpage(image_path: str, output_filename:str, top_left:tuple
 
 
 if __name__ == '__main__':
-    generate_static_webpage(image_path="C:/Users/ereny/Desktop/Code/rplace-turkey-master/img/alfred.png",
-    output_filename="alfred.html",
-    top_left=(-1000, -350))
+    generate_static_webpage(image_path="C:/Users/ereny/Desktop/Code/rplace-turkey-master/img/gokturk.png",
+    output_filename="gokturk.html",
+    top_left=(833, 946))

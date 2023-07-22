@@ -81,4 +81,4 @@ def generate_static_webpage(image_path: str, output_filename:str, top_left:tuple
 if __name__ == '__main__':
     generate_static_webpage(image_path="C:/Users/ereny/Desktop/Code/rplace-turkey-master/img/gokturk.png",
     output_filename="gokturk.html",
-    top_left=(-166, 446))
+    top_left=(-167, 446))

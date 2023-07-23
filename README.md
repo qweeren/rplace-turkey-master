@@ -2,8 +2,8 @@
 
 This repo is heavily based on works of [tux community](https://www.reddit.com/r/placetux/) <sub>([here](https://gist.github.com/humanova/3979a4068340444ac76503a56211856a)'s the deleted script of [ryleu](https://github.com/ryleu)). </sub> 
 
-I made slight changes in the original script for my comfort. 
-[Sercan](https://github.com/srcnalt) added the tile coordinates tooltip.
+this is a fork of: 
+https://github.com/humanova/rplace-turkey
 
 ---
 ### Emeği geçen çizer ve yazılımcı arkadaşlara teşekkür ediyorum : 
@@ -16,5 +16,3 @@ I made slight changes in the original script for my comfort.
 - [Furkan](https://github.com/yakuthun)
 - [Göktuğ](https://www.reddit.com/user/goktug_exe)
 - [Turug](https://github.com/tyrone718)
-
-### Yayıncılarla olan iletişimimizde bize yardımcı olan Cordiseps ve Valaska'ya ayrıca teşekkür ederim. 
